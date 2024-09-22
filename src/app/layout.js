@@ -18,7 +18,8 @@ export const metadata = {
     default: "Nabarun Biswas Portfolio 2024",
   },
   description:
-    "A sleek portfolio crafted by Nabarun, using the magic of Next.js, Tailwind CSS, Three.js, and Framer Motion. Dive into the future of web design. Catch more on Algo Bot's YouTube channel!",
+  "A sleek portfolio crafted by Nabarun, using the magic of Next.js, Tailwind CSS, Three.js, and Framer Motion. Dive into the future of web design. Catch more on Algo Bot&apos;s YouTube channel!",
+
 };
 
 export default function Layout({ children }) {
