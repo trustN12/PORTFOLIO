@@ -1,0 +1,11 @@
+Model Information:
+* title:	witch casting spell
+* source:	https://sketchfab.com/3d-models/witch-casting-spell-4a8b8672511a40799dff97998ac885f7
+* author:	Rob Jacks (https://sketchfab.com/RobynJacks)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "witch casting spell" (https://sketchfab.com/3d-models/witch-casting-spell-4a8b8672511a40799dff97998ac885f7) by Rob Jacks (https://sketchfab.com/RobynJacks) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
