@@ -5,7 +5,6 @@ import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
 
 import dynamic from "next/dynamic";
-// import Cat from "@/components/models/Cat";
 
 const Cat = dynamic(() => import("@/components/models/Cat"), {
   ssr: false,
@@ -28,13 +27,15 @@ export default function Home() {
 
       <ProjectList projects={projectsData} />
 
-      <div className="flex items-center justify-center fixed top-15 lg:top-17 right-5 -translate-x-1/2 lg:translate-x-0 -z-10 h-screen">
+      {/* First Cat Model (right) */}
+      <div className="flex items-center justify-center fixed top-[10%] lg:top-[15%]  sm:top-[5%] md:top-[5%] right-[5%] sm:right-[1%] md:right-[1%] transform z-10 xs:-z-10 sm:-z-10 md:-z-10 h-[25vh] sm:h-[30vh] lg:h-[40vh]">
         <RenderModel>
           <Cat />
         </RenderModel>
       </div>
 
-      <div className="flex items-center justify-center fixed top-15 lg:top-17 left-40 -translate-x-1/2 -z-10 h-screen">
+      {/* Second Cat Model (left) */}
+      <div className="flex items-center justify-center fixed top-[10%] lg:top-[15%] sm:top-[5%] md:top-[5%] left-[5%] sm:left-[1%] md:left-[1%]  transform z-10 xs:-z-10 sm:-z-10 md:-z-10 h-[25vh] sm:h-[30vh] lg:h-[40vh]">
         <RenderModel>
           <Cat />
         </RenderModel>

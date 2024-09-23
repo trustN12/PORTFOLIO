@@ -23,7 +23,7 @@ const Navigation = () => {
   const isMedium = size >= 768;
 
   return (
-    <div className="w-full fixed h-screen flex items-center justify-center">
+    <div className="w-full fixed h-screen flex items-center justify-center space-y-4 sm:space-y-10 xs:space-y-10">
       <ResponsiveComponent>
         {({ size }) => {
           return size && size >= 480 ? (
@@ -31,7 +31,7 @@ const Navigation = () => {
               variants={container}
               initial="hidden"
               animate="show"
-              className="w-max flex items-center justify-center relative hover:pause animate-spin-slow group"
+              className="w-max flex items-center justify-center relative hover:pause animate-spin-slow group "
             >
               {BtnList.map((btn, index) => {
                 const angleRad = (index * angleIncrement * Math.PI) / 180;
@@ -52,7 +52,7 @@ const Navigation = () => {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 item-start xs:items-center justify-center relative  group xs:hidden"
+                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 xs:space-y-10 item-start xs:items-center justify-center relative  group xs:hidden"
               >
                 {BtnList.slice(0, BtnList.length / 2).map((btn) => {
                   return <NavButton key={btn.label} x={0} y={0} {...btn} />;
@@ -63,7 +63,7 @@ const Navigation = () => {
                 variants={container}
                 initial="hidden"
                 animate="show"
-                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 items-end xs:items-center justify-center relative group xs:hidden"
+                className="w-full px-2.5 xs:p-0 xs:w-max flex flex-col space-y-4 xs:space-y-10 items-end xs:items-center justify-center relative group xs:hidden"
               >
                 {BtnList.slice(BtnList.length / 2, BtnList.length).map(
                   (btn) => {

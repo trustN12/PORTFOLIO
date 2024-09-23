@@ -18,15 +18,14 @@ const ProjectLayout = ({ name, description, demoLink, imageSrc, Tools_Technologi
           "linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(173, 216, 230, 0.4))",
         boxShadow: "0 15px 25px rgba(0, 0, 0, 0.2)",
       }}
-      className="p-6 w-full rounded-lg shadow-xl relative transition-transform duration-500"
+      className="p-6  w-[700px] sm:w-[80%] xs:w-[70%] md:w-[85%] lg:w-[80%] xl:w-[700px] mx-auto  rounded-lg shadow-xl transition-transform duration-500"
       style={{
         background: "rgba(255, 255, 255, 0.25)",
         borderRadius: "20px",
         backdropFilter: "blur(10px)",
         border: "1px solid rgba(255, 255, 255, 0.3)",
         boxShadow: "0 10px 20px rgba(0, 0, 0, 0.1)",
-        height: "400px", // Set a fixed height for uniformity
-        width: "700px",
+        height: "400px",
         transition: "transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out",
       }}
     >
@@ -49,7 +48,7 @@ const ProjectLayout = ({ name, description, demoLink, imageSrc, Tools_Technologi
                 className="h-20 w-20 flex items-center justify-center rounded-full bg-gradient-to-r from-orange-500 to-emerald-400 text-white"
                 style={{
                   background:
-                    "linear-gradient(100deg, #c2410c, #34d399), rgba(200, 200, 200, 0.7))", // Gradient with opacity
+                    "linear-gradient(100deg, #c2410c, #34d399), rgba(200, 200, 200, 0.7))",
                   boxShadow: "0 4px 10px rgba(0, 0, 0, 1)",
                 }}
               >
@@ -77,10 +76,9 @@ const ProjectLayout = ({ name, description, demoLink, imageSrc, Tools_Technologi
                 color: "#e0e0e0",
                 fontSize: "1rem",
                 textShadow: "0 1px 3px rgba(0, 0, 0, 0.3)",
-                overflow: "hidden", // Ensure text does not overflow
-                textOverflow: "ellipsis", // Add ellipsis for overflowed text
+                overflow: "hidden",
+                textOverflow: "ellipsis",
                 whiteSpace: "nowrap",
-                
               }}
             >
               {description}
@@ -91,8 +89,8 @@ const ProjectLayout = ({ name, description, demoLink, imageSrc, Tools_Technologi
                 color: "#f57c00",
                 fontSize: "0.88rem",
                 textShadow: "0 1px 3px rgba(0, 0, 0, 0.3)",
-                overflow: "hidden", // Ensure text does not overflow
-                textOverflow: "ellipsis", // Add ellipsis for overflowed text
+                overflow: "hidden",
+                textOverflow: "ellipsis",
                 whiteSpace: "nowrap",
               }}
             >
@@ -104,12 +102,12 @@ const ProjectLayout = ({ name, description, demoLink, imageSrc, Tools_Technologi
                 color: "#f8f8f8",
                 fontSize: "0.88rem",
                 textShadow: "0 1px 3px rgba(0, 0, 0, 0.3)",
-                overflow: "hidden", // Ensure text does not overflow
-                textOverflow: "ellipsis", // Add ellipsis for overflowed text
+                overflow: "hidden",
+                textOverflow: "ellipsis",
                 whiteSpace: "nowrap",
               }}
             >
-             Please Click Me!
+              Please Click Me!
             </p>
           </div>
         </div>

@@ -92,7 +92,7 @@ const NavButton = ({
       {({ size }) => {
         return size && size >= 480 ? (
           <div
-            className="absolute cursor-pointer z-50"
+            className="absolute cursor-pointer z-50 space-y-4 sm:space-y-4"
             style={{ transform: `translate(${x}, ${y})` }}
           >
             <NavLink
@@ -119,13 +119,13 @@ const NavButton = ({
             </NavLink>
           </div>
         ) : (
-          <div className="w-fit cursor-pointer z-50">
+          <div className="w-fit cursor-pointer z-50  space-y-4 sm:space-y-4">
             <NavLink
               variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground  rounded-full flex items-center justify-center
-        custom-bg
+      
         "
               aria-label={label}
               name={label}
