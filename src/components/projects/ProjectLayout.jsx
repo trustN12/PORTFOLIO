@@ -18,7 +18,7 @@ const ProjectLayout = ({ name, description, demoLink, imageSrc, Tools_Technologi
           "linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(173, 216, 230, 0.4))",
         boxShadow: "0 15px 25px rgba(0, 0, 0, 0.2)",
       }}
-      className="p-6  w-[700px] sm:w-[80%] xs:w-[70%] md:w-[85%] lg:w-[80%] xl:w-[700px] mx-auto  rounded-lg shadow-xl transition-transform duration-500"
+      className="p-6  w-[700px] sm:w-[95%] xs:w-[80%] md:w-[99%]  mx-auto  rounded-lg shadow-xl transition-transform duration-500"
       style={{
         background: "rgba(255, 255, 255, 0.25)",
         borderRadius: "20px",

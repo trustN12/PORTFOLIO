@@ -36,7 +36,7 @@ const ProjectList = ({ projects }) => {
       variants={container}
       initial="hidden"
       animate="show"
-      className="w-[90%] sm:w-[80%] xs:w-[70%] md:w-[80%] lg:w-[85%] xl:w-[90%] px-4 mx-auto space-y-6 md:space-y-8 flex flex-col items-center"
+      className="w-[90%] sm:w-[90%] xs:w-[90%] md:w-[90%] lg:w-[90%] xl:w-[90%] px-4 mx-auto space-y-6 md:space-y-8 flex flex-col items-center"
     >
       {projects.map((project, index) => {
         return (
