@@ -33,6 +33,15 @@ export const projectsData = [
     date: "2024-08-23",
     demoLink: "https://easy-peezy-sorting-visualizer.vercel.app/",
   },
+  {
+    id: 3,
+    name: "Albert AI",
+    description: "A minimal voice activated your day-to-day personal assistant"
+    Tools_Technologies: "Html, CSS, Javascript, ParticlesJS",
+    date: "2024-09-20",
+    demoLink: "https://albert-ai-three.vercel.app/",
+  },
+
  
   
   
